@@ -1,0 +1,360 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.clear {
+  clear: both;
+}
+.z-index1 {
+  z-index: 1 !important;
+}
+.container {
+  color: #7f8c8c;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.underline {
+  text-decoration: underline;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.bold {
+  font-weight: bold;
+}
+.light {
+  font-weight: lighter;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.mt25 {
+  margin-top: 25px;
+}
+.mt60 {
+  margin-top: 60px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.mt100 {
+  margin-top: 100px;
+}
+.pt10 {
+  padding-top: 10px !important;
+}
+.pt60 {
+  padding-top: 60px !important;
+}
+.pb60 {
+  padding-bottom: 60px !important;
+}
+.f1 {
+  font-family: 'OpenSans', sans-serif !important;
+}
+.f2 {
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
+.f12 {
+  font-size: 12px !important;
+}
+.f13 {
+  font-size: 13px !important;
+}
+.f14 {
+  font-size: 14px !important;
+}
+.f16 {
+  font-size: 16px !important;
+}
+.f20 {
+  font-size: 20px !important;
+}
+.f30 {
+  font-size: 30px !important;
+}
+.f40 {
+  font-size: 40px !important;
+}
+.f60 {
+  font-size: 60px !important;
+}
+.c1 {
+  color: #fff;
+}
+.c2 {
+  color: #000;
+}
+.c3 {
+  color: #76c7c0;
+}
+.c4 {
+  color: #b0b8b9;
+}
+.c7 {
+  color: #7f8c8c;
+}
+.c9 {
+  color: #e8645a !important;
+}
+.c10 {
+  color: #497e79 !important;
+}
+.c11 {
+  color: #4bcaff !important;
+}
+.c12 {
+  color: #515f67 !important;
+}
+.bgr1 {
+  background-color: #fff;
+}
+.bgr3 {
+  background-color: #76c7c0;
+}
+.bgr5 {
+  background-color: #f3f3f3;
+}
+.bgr6 {
+  background-color: #ececec;
+}
+.bgr11 {
+  background-color: #4bcaff;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.my-caret-1 {
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid #e8645a;
+  position: absolute;
+  left: 12px;
+  top: -10px;
+}
+.my-caret-2 {
+  width: 0px;
+  height: 0px;
+  border-right: 1px solid #fff;
+  border-left: 20px solid transparent;
+  border-top: 20px solid #fff;
+  position: absolute;
+  left: 30%;
+}
+.father {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.5s;
+}
+.father img {
+  max-width: 100%;
+}
+.father .inner {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.father .inner:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  transition: all 0.5s;
+}
+.father .inner:after {
+  content: '';
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  transition: all 0.5s;
+  transform: scale(0.7, 0.7);
+}
+.father .inner a {
+  vertical-align: middle;
+  display: inline-block;
+  z-index: 3;
+  transition: all 0.5s;
+  transform: translateX(-150px);
+}
+.father:hover .portfolio-inner {
+  transition: all 0.5s;
+  opacity: 1;
+}
+.father:hover .portfolio-inner a {
+  transition: all 0.5s;
+  transform: translateX(0px);
+}
+.father:hover .portfolio-inner:after {
+  opacity: 0.8;
+  z-index: -1;
+  transition: all 0.5s;
+  transform: scale(1, 1);
+}
+.reponsive-nav {
+  display: none;
+}
+.reponsive-nav-list {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  width: 200px;
+  background-color: #fff;
+  color: #000;
+}
+.flexslider {
+  border: none !important;
+  position: relative;
+  margin: 0px !important;
+}
+.flexslider ul.slides li {
+  position: relative;
+}
+.flex-control-nav {
+  display: none !important;
+}
+.slider-sub {
+  position: absolute;
+  bottom: 200px;
+  left: 20%;
+  right: 20%;
+  z-index: 10;
+  color: #fff;
+  font-size: 32px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+}
+.slider-sub span {
+  background-color: rgba(53, 63, 70, 0.6);
+  line-height: 50px;
+}
+.btn-2 {
+  margin-bottom: 20px;
+  overflow: hidden;
+  height: 45px;
+  width: 145px;
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid #000;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  transition: all 1s;
+}
+.btn-2:after {
+  content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s;
+  transform: translateY(-100px);
+}
+.btn-2:hover {
+  color: #fff;
+  transition: all 1s;
+}
+.btn-2:hover:after {
+  opacity: 1;
+  transition: all 0.5s;
+  transform: translateY(0px);
+  z-index: -1;
+}
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+@media screen and (max-width: 1024px) {
+  .row {
+    text-align: center;
+  }
+  .reponsive-nav {
+    display: block;
+    font-size: 30px;
+    position: static;
+    right: 10px;
+    z-index: 1;
+  }
+  .col-md-1,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-xs-1,
+  .col-xs-10,
+  .col-xs-11,
+  .col-xs-12,
+  .col-xs-2,
+  .col-xs-3,
+  .col-xs-4,
+  .col-xs-5,
+  .col-xs-6,
+  .col-xs-7,
+  .col-xs-8,
+  .col-xs-9 {
+    text-align: center ;
+  }
+}
