@@ -8,9 +8,6 @@
 .z-index1 {
   z-index: 1 !important;
 }
-.container {
-  color: #7f8c8c;
-}
 .relative {
   position: relative;
 }
@@ -95,41 +92,8 @@
 .c2 {
   color: #000;
 }
-.c3 {
-  color: #76c7c0;
-}
-.c4 {
-  color: #b0b8b9;
-}
-.c7 {
-  color: #7f8c8c;
-}
-.c9 {
-  color: #e8645a !important;
-}
-.c10 {
-  color: #497e79 !important;
-}
-.c11 {
-  color: #4bcaff !important;
-}
-.c12 {
-  color: #515f67 !important;
-}
 .bgr1 {
   background-color: #fff;
-}
-.bgr3 {
-  background-color: #76c7c0;
-}
-.bgr5 {
-  background-color: #f3f3f3;
-}
-.bgr6 {
-  background-color: #ececec;
-}
-.bgr11 {
-  background-color: #4bcaff;
 }
 .left {
   float: left;
