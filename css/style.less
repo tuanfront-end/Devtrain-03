@@ -9,8 +9,10 @@
 
 @color1 :#fff;
 @color2 :#000;
-
-
+@color3 :#e7e7e7;
+@color4 :#81e4ed;
+@color5 :#2aacc8;
+@color6 :#e8ebf1;
 .clear {
 	clear: both; 
 }
@@ -107,7 +109,9 @@
 .c2{
 	color:@color2;
 }
- 
+.c3{
+	color:@color3;
+}
 .bgr1{
 	background-color: @color1;
 }
@@ -227,37 +231,7 @@
 
 .flexslider{
 	border: none !important;
-	position: relative;
-	margin:0px !important;
-	ul.slides{
-		li{
-			position: relative;
-		}
-	}
 }
-.flex-control-nav{
-	display: none !important;
-}
-
-.slider-sub{
-	position: absolute;
-	bottom: 200px;
-	left: 20%;
-	right: 20%;
-	z-index: 10;
-	color: #fff;
-	font-size: 32px;
-	font-weight: lighter;
-	text-transform: uppercase;
-	text-align: center;
-	span{
-		background-color: rgba(53, 63, 70, 0.6);
-		line-height: 50px;
-	}
-}
-
-
-
 
 .btn-2{
 	margin-bottom: 20px;
@@ -308,10 +282,95 @@
 
 
 .my-top-nav{
+	ul{
+		li{
+			padding: 10px;
+			border-top: 5px solid #e8ebf1;
+			position: relative; 
+			list-style-type: none;
+			margin-left: 30px;
+			float: left;
+			a{
+				color: #000;
+				font-weight: bold;
+				text-transform: uppercase;
+				&:hover{
+					text-decoration: none;
+					color: @color4;
+				}
 
+			}
+			ul{	
+				z-index: 1;
+				background-color: #fff;
+				margin-left: -10px;
+				margin-top: 10px;
+				position: absolute;
+				display: none;
+				li{
+					margin-right: 10px;
+					border:none;
+					border-bottom: 1px solid @color3;
+					width: 190px;
+					float: left;
+					list-style-type: none;
+					a{
+						text-transform: none;
+						color: #000 !important;
+						font-weight: normal;
+					}
+					&:hover{
+						border:none;
+						border-bottom: 1px solid @color3; 
+						a{
+							color: #2aacc8 !important;
+						}
+					}
+
+				}
+			}
+			&:hover{
+				background-color: #fff;
+				border-top: 5px solid #2aacc8;
+				a{color: @color4}
+				ul{
+					display: block;
+				}
+			}
+		}
+	}
 }
 
-
+.slider{
+	background-color: @color4;
+	padding: 20px 0 40px 0;
+}
+.our-work{
+	background-color: @color6;
+	padding: 50px 0 50px 0;
+		.our-work-container{
+			display: -webkit-flex; /* Safari */
+			display: flex;
+			-webkit-flex-direction: column; /* Safari */
+			flex-direction:         column;
+			-webkit-flex-wrap: nowrap; /* Safari */
+			flex-wrap:         nowrap;
+			-webkit-justify-content: space-between; /* Safari */
+			justify-content:         space-between;
+			.our-work-title{
+			text-transform: uppercase;
+			font-size: 15px;
+			font-weight: bold;color: #000;
+			}
+			.our-work-content{
+				font-size: 13px;
+				margin-top: 15px;
+			}
+			.our-work-footer{
+				margin-top: 15px;
+			}
+	}
+}
 
 /* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
 /* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////

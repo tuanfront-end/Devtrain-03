@@ -80,26 +80,25 @@
  // End REnponsive-menu________
 
 
-   //Flex Slider-2-________
-    $(function(){
-            // SyntaxHighlighter.all();
-        });
-      $(window).load(function(){
+ //Flex Slider-2-________
+   $(document).ready(function(){
+      $(window).load(function() {
         $('.flexslider').flexslider({
-          animation: "slide",
-          start: function(slider){
-            $('body').removeClass('loading');
-          }
+          animation: "slide"
         });
       });
+   });
+      
+ // End Flex Slider-2-________
 
-      // End Flex Slider-2-________
 
 
     // Jquery for Class Naviar-sub-________
     $(document).ready(function(){
       $("ul.my-nav li").has("ul").addClass("sub-menu");
-      $("li.sub-menu").children("a").addClass("aaa");
-      $("a.aaa").append("<i class='fa fa-chevron-down' aria-hidden='true'></i>");
+      $("li.sub-menu").append("<i class='fa fa-chevron-down' aria-hidden='true'></i>");
+      // $("li.sub-menu").children("a").addClass("a-plus");
+      // $("a.a-plus").append("<i class='fa fa-chevron-down' aria-hidden='true'></i>");
     });
     // EndJquery for Class Naviar-sub-________
+
