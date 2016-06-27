@@ -25,14 +25,14 @@
       // external js: isotope.pkgd.js
 
         $(".grid").isotope({
-           itemSelector: '.grid-item',
+           itemSelector: '.grid-item-2',
            layoutMode: 'fitRows',
         });
 
          // Add isotope click funtion
 
-        $('.portfolio_filter li').click(function(){
-          $('.portfolio_filter li').removeClass('active');
+        $('.portfolio-list li').click(function(){
+          $('.portfolio-list li').removeClass('active');
           $(this).addClass('active');
 
           var selector =$(this).attr('data-filter');
