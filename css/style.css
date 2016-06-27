@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
 }
+@font-face {
+  font-family: Arial;
+  src: url('../fonts/Arial/fontawesome-webfont.woff');
+}
 .clear {
   clear: both;
 }
@@ -61,6 +65,9 @@
 }
 .f2 {
   font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
+.f3 {
+  font-family: Arial;
 }
 .f12 {
   font-size: 12px !important;
@@ -258,6 +265,19 @@
   transition: all 0.5s;
   transform: translateY(0px);
   z-index: -1;
+}
+.header {
+  padding: 30px 0 30px 0;
+  background-color: #e8ebf1;
+  box-shadow: 0px 1px 1px 0px gray;
+}
+.header .top-nav-detail {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari */
+  align-items: center;
 }
 /* Medium devices (desktops, 992px and down) */
 /* Medium devices (desktops, 992px and down) */

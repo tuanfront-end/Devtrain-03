@@ -79,6 +79,8 @@
     });
  // End REnponsive-menu________
 
+
+   //Flex Slider-2-________
     $(function(){
             // SyntaxHighlighter.all();
         });
@@ -94,3 +96,10 @@
       // End Flex Slider-2-________
 
 
+    // Jquery for Class Naviar-sub-________
+    $(document).ready(function(){
+      $("ul.my-nav li").has("ul").addClass("sub-menu");
+      $("li.sub-menu").children("a").addClass("aaa");
+      $("a.aaa").append("<i class='fa fa-chevron-down' aria-hidden='true'></i>");
+    });
+    // EndJquery for Class Naviar-sub-________
