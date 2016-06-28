@@ -627,6 +627,10 @@
   font-weight: bold;
   font-size: 18px;
 }
+label.error {
+  color: #EE7575 !important;
+  font-weight: lighter;
+}
 /* Medium devices (desktops, 992px and down) */
 /* Medium devices (desktops, 992px and down) */
 /* Medium devices (desktops, 992px and down) */

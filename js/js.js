@@ -108,3 +108,29 @@
       // $("a.a-plus").append("<i class='fa fa-chevron-down' aria-hidden='true'></i>");
     });
     // EndJquery for Class Naviar-sub-________
+
+
+$(document).ready(function () {
+   $('#contact-form').validate({ 
+         rules: {
+             email: {
+                 required: true,
+                 email: true
+             },
+             name: {
+                 required: true,
+                 minlength: 3
+             },
+             Subject: {
+                 required: true,
+                 number: true,
+                 minlength: 5
+             },
+             Description: {
+                 required: true,
+                 minlength: 10
+             }
+         }
+     });
+ 
+});

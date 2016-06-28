@@ -92,25 +92,26 @@
 							</span> <br>
 							<div class="input-contact">
 
-								<form action="" method="POST">
+								<form id="contact-form" action="" method="">
 									<span>Name</span> <br>
-									<input type="text" name="name" required minlength="4">
+									<input type="text" name="name" >
 									<br><br>
 									<span>Email Address</span> <br>
-									<input type="email" name="Email Address" value="" required>
+									<input type="text" name="email" value="">
 									
 									<br><br>
 									<span>Subject</span><br>
-									<input type="text" name="Subject" value="" required minlength="10">
+									<input type="text" name="Subject" value="" >
 									
 									<br><br>
 									<span>Description</span><br>
-									<input type="text" id="description" name="Description" value="" required minlength="20">
+									<input type="text" id="description" name="Description" value="" >
 									
 									<br><br>
 									<button class="btn-2" id="submit"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Submit</button>
 									
 								</form>
+										
 							</div>
 						
 						</div>
@@ -202,9 +203,6 @@
 
 	</div>
 	<!-- end -Container-Fluid________ -->
-
-
-
     <!-- Reponsive Nav_______ -->
 	<div class="reponsive-nav-list">
 		<ul>
@@ -221,11 +219,12 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>	
     <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
     <script src="js/js.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- Bootstrap style____ -->
-
+	
 	 
     <script src="js/owl.carousel.js"></script>
 	 <!-- Carousel style____ -->
