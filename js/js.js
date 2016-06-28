@@ -108,17 +108,3 @@
       // $("a.a-plus").append("<i class='fa fa-chevron-down' aria-hidden='true'></i>");
     });
     // EndJquery for Class Naviar-sub-________
-
-    // Serial izeArray - Form-contact
-   $(document).ready(function(){
-     $("#submit").click(function(){
-          var x = $("input").serializeArray();
-          $.each(x, function(i, field){
-              $("#results").append(field.name + ": &nbsp;" + field.value + ": <br>");
-                $("#results").css({"font-size":"18px", "text-transform":"capitalize","border-bottom":"1px solid"});
-
-              // alert(field.name + ":" + field.value + " ");
-          });
-      });
-  });
-     //End Serial izeArray Form-contact

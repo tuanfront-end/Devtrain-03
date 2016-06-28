@@ -91,31 +91,33 @@
                                  For feedback or questions, please email us at: <a href="mailto:email@bislite.com">email@bislite.com</a>
 							</span> <br>
 							<div class="input-contact">
-								<span>Name</span> <br>
-								<input type="text" name="Name" value="">
-								
-								<br><br>
-								<span>Email Address</span> <br>
-								<input type="text" name="Email Address" value="">
-								
-								<br><br>
-								<span>Subject</span><br>
-								<input type="text" name="Subject" value="">
-								
-								<br><br>
-								<span>Description</span><br>
-								<input type="text" id="description" name="Description" value="">
-								
-								<br><br>
-								<button class="btn-2" id="submit"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Submit</button>
-								<div id="results"></div>
-							</div>
 
+								<form action="" method="POST">
+									<span>Name</span> <br>
+									<input type="text" name="name" required minlength="4">
+									<br><br>
+									<span>Email Address</span> <br>
+									<input type="email" name="Email Address" value="" required>
+									
+									<br><br>
+									<span>Subject</span><br>
+									<input type="text" name="Subject" value="" required minlength="10">
+									
+									<br><br>
+									<span>Description</span><br>
+									<input type="text" id="description" name="Description" value="" required minlength="20">
+									
+									<br><br>
+									<button class="btn-2" id="submit"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Submit</button>
+									
+								</form>
+							</div>
+						
 						</div>
 						<div class="right">
 							<div class="maps">
 								<span>We are here</span> <br> <br>
-								<img src="images/maps.png" alt="">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1571437585017!2d105.84810085018273!3d21.026397393166878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab94eca5c5f3%3A0xab6fa3439ae8babc!2sHanoi+Studio!5e0!3m2!1svi!2s!4v1467094676894" width="100%" height="200px" frameborder="" style="border:5px solid #fff" allowfullscreen></iframe>
 							</div>
 							<div class="address">
 								<div class="title">office address</div><br>
@@ -129,7 +131,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -238,5 +239,6 @@
     <!--  END WOW JS- ANIMATE -->
 	<script src="js/lightbox.js"></script>
 	<!--  END Light box js -->
+	
 </body>
 </html>
