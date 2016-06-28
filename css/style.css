@@ -547,6 +547,24 @@
 .portfolio-list ul li a:focus {
   text-decoration: none;
 }
+.portfolio-page {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-flex-direction: row;
+  /* Safari */
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  /* Safari */
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  /* Safari */
+  justify-content: center;
+}
+.portfolio-page .pagination a,
+.portfolio-page .pager a {
+  border: none !important;
+}
 .grid-item-2 {
   float: left;
   width: 255px;
