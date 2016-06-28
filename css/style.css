@@ -448,6 +448,7 @@
   color: #2aacc8 !important;
 }
 .my-top-nav ul li:hover {
+  color: #81e4ed;
   background-color: #fff;
   border-top: 5px solid #2aacc8;
 }
