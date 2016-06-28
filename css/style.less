@@ -149,6 +149,7 @@
 }
 
 .father{
+	overflow: hidden;
 	position: relative;
 	&:before{
 		content: '';
@@ -547,8 +548,7 @@
 	}
 
 }
-.portfolio-item{
-}
+
 .grid{
 	margin-left: -30px;
 }
@@ -585,12 +585,7 @@
 		width: 100%;
 	}
 }
-/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
-/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
-/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
-/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
-/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
-/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
+
 /* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
 /* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
 /* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
@@ -598,34 +593,7 @@
 /* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
 /* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
 /* Medium devices (desktops, 992px and down) */
-@media screen and (max-width: 320px) {
-	.col-xs-12 , .col-sm-12{
-		margin-top: 20px;
-	}
-	.footer-content{
-			-webkit-flex-direction: column; /* Safari */
-			flex-direction:         column;
-		.about, .explore, .browse, .contact{
-			width: 100%;
-			margin-bottom: 20px;
-		}
-		.connect{
-			width: 55%;
-		
-		}
-	}
-	.footer-bottom{
-		-webkit-flex-direction: column; /* Safari */
-			flex-direction:         column;
-		span, img{
-			margin-bottom: 20px;
-		}
-	}
-	.btn-2{
-		margin: 0;
-	}
 
-}
 @media screen and (max-width: 1024px) {
 	.row{
 		text-align: center;
@@ -666,5 +634,61 @@
 				width: 100%;
     		}
 	}
+
+	.grid-item-2 {
+	    float: left;
+	    width: 32%;
+	    margin: 0 auto;
+	    /* padding: 15px; */
+	}
+	.grid{
+		margin: 0 auto;
+	}
+
 	
+}
+/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
+/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
+/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
+/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
+/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
+/* Medium devices (desktops, 992px and down) *//////////////////////////////////////////////////////////////
+
+@media screen and (max-width: 320px) {
+	.col-xs-12 , .col-sm-12{
+		margin-top: 20px;
+	}
+	.footer-content{
+			-webkit-flex-direction: column; /* Safari */
+			flex-direction:         column;
+		.about, .explore, .browse, .contact{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.connect{
+			width: 55%;
+		
+		}
+	}
+	.footer-bottom{
+		-webkit-flex-direction: column; /* Safari */
+			flex-direction:         column;
+		span, img{
+			margin-bottom: 20px;
+		}
+	}
+	.btn-2{
+		margin: 0;
+	}
+
+	.grid-item-2 {
+	    float: left;
+	    width: 90%;
+	    margin: 0 auto;
+	    /* padding: 15px; */
+	}
+	.grid{
+		margin: 0 auto;
+	}
+
 }

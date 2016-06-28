@@ -134,6 +134,7 @@
   left: 30%;
 }
 .father {
+  overflow: hidden;
   position: relative;
 }
 .father:before {
@@ -581,45 +582,6 @@
 /* Medium devices (desktops, 992px and down) */
 /* Medium devices (desktops, 992px and down) */
 /* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-@media screen and (max-width: 320px) {
-  .col-xs-12,
-  .col-sm-12 {
-    margin-top: 20px;
-  }
-  .footer-content {
-    -webkit-flex-direction: column;
-    /* Safari */
-    flex-direction: column;
-  }
-  .footer-content .about,
-  .footer-content .explore,
-  .footer-content .browse,
-  .footer-content .contact {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .footer-content .connect {
-    width: 55%;
-  }
-  .footer-bottom {
-    -webkit-flex-direction: column;
-    /* Safari */
-    flex-direction: column;
-  }
-  .footer-bottom span,
-  .footer-bottom img {
-    margin-bottom: 20px;
-  }
-  .btn-2 {
-    margin: 0;
-  }
-}
 @media screen and (max-width: 1024px) {
   .row {
     text-align: center;
@@ -691,5 +653,62 @@
   .down-psd .down-psd-right {
     margin-top: 20px;
     width: 100%;
+  }
+  .grid-item-2 {
+    float: left;
+    width: 32%;
+    margin: 0 auto;
+    /* padding: 15px; */
+  }
+  .grid {
+    margin: 0 auto;
+  }
+}
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+/* Medium devices (desktops, 992px and down) */
+@media screen and (max-width: 320px) {
+  .col-xs-12,
+  .col-sm-12 {
+    margin-top: 20px;
+  }
+  .footer-content {
+    -webkit-flex-direction: column;
+    /* Safari */
+    flex-direction: column;
+  }
+  .footer-content .about,
+  .footer-content .explore,
+  .footer-content .browse,
+  .footer-content .contact {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer-content .connect {
+    width: 55%;
+  }
+  .footer-bottom {
+    -webkit-flex-direction: column;
+    /* Safari */
+    flex-direction: column;
+  }
+  .footer-bottom span,
+  .footer-bottom img {
+    margin-bottom: 20px;
+  }
+  .btn-2 {
+    margin: 0;
+  }
+  .grid-item-2 {
+    float: left;
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 15px; */
+  }
+  .grid {
+    margin: 0 auto;
   }
 }
