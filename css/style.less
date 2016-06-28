@@ -317,7 +317,16 @@
 	}
 	.connect{
 		width: 15%;
-		img{float: left;}
+		img{
+			border-radius: 50%;
+		    margin: 3px;
+		    border: 2px solid transparent;
+		    float: left;
+		    &:hover{
+		    	border-color: #ACBDE2;
+		    }
+
+		}
 	}
 }
 .footer-bottom{
@@ -700,6 +709,9 @@ label.error{
 	.grid{
 		margin: 0 auto;
 	}
+	.footer-content .connect {
+		    width: 24%;
+		}
 
 	
 }
@@ -722,7 +734,7 @@ label.error{
 			margin-bottom: 20px;
 		}
 		.connect{
-			width: 55%;
+			width: 59%;
 		
 		}
 	}
