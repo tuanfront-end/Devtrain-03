@@ -639,11 +639,6 @@ label.error {
 }
 /* Medium devices (desktops, 992px and down) */
 /* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
 @media screen and (max-width: 1024px) {
   .row {
     text-align: center;
@@ -729,10 +724,6 @@ label.error {
     width: 24%;
   }
 }
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
-/* Medium devices (desktops, 992px and down) */
 /* Medium devices (desktops, 992px and down) */
 /* Medium devices (desktops, 992px and down) */
 @media screen and (max-width: 320px) {
