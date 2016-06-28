@@ -419,6 +419,7 @@
   color: #81e4ed;
 }
 .my-top-nav ul li ul {
+  border-bottom: 5px solid #2aacc8;
   z-index: 1;
   background-color: #fff;
   margin-left: -10px;
